@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[pack]
+	packSizeLimit = 4m
+[gc]
+	auto = 0
+[remote "assembla"]
+	url = git@git.assembla.com:dirtyword.git
+	fetch = +refs/heads/*:refs/remotes/assembla/*
+[remote "unfuddle"]
+	url = git@afun.unfuddle.com:afun/dirtyword
+	fetch = +refs/heads/*:refs/remotes/unfuddle/*
