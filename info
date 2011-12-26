@@ -1,38 +1,21 @@
-DIRTYWORD [GIT] commit d732d98f: Initial commit.
+DIRTYWORD [GIT] commit 9dd67a5a: Add list for Artist.
 
 
 Path  : git
-Date  : 2011-12-25 05:35:12 +0800
+Date  : 2011-12-27 03:41:04 +0800
 Author: Afun Nahn
-Commit: d732d98fc2165bb3b4e26fdf20c6c96bd571be65
+Commit: 9dd67a5a9b7200fb9a942e977256a87fa8d8bcfb
 
-    Initial commit.
+    Add list for Artist.
 
 
 
- .gitignore                                         |    2 +
- Award.txt                                          |  283 ++
- British.txt                                        |   70 +
- Czech.txt                                          |   33 +
- DATABASE.URL                                       | 2281 +++++++++++++++
- France.txt                                         |   92 +
- HOSTS.URL                                          |    1 +
- Japan.txt                                          | 2964 ++++++++++++++++++++
- Japan_Mature.txt                                   |   49 +
- Selected.txt                                       |   24 +
- WikiSource.pm                                      |   69 +
- World.txt                                          | 1027 +++++++
- download                                           |   17 +
- generate_names.pl                                  |    8 +
- get_list.pl                                        |  112 +
- urlrule_task.log                                   | 1330 +++++++++
- ...03\207\343\202\252\347\224\250\350\252\236.txt" |   45 +
- ...00\247\343\201\256\344\277\227\350\252\236.txt" |   53 +
- ...00\247\343\201\256\346\226\207\345\214\226.txt" |  136 +
- ...220\344\272\272\345\220\221\343\201\221OVA.txt" |  188 ++
- ...20\221\343\201\221\346\274\253\347\224\273.txt" |   77 +
- ...01\225\343\201\225\343\202\204\343\201\215.txt" |  149 +
- 22 files changed, 9010 insertions(+), 0 deletions(-)
+ Artist.txt                                         |    1 +
+ DATABASE.URL                                       |  820 ++++++++++++++++++++
+ ...64\240\344\272\272\345\245\263\345\204\252.txt" |   58 ++
+ WikiSource.pm                                      |    7 +-
+ urlrule_task.log                                   |  223 ++++++
+ 5 files changed, 1107 insertions(+), 2 deletions(-)
 
 ================================================================================
 
